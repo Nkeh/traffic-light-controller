@@ -1,0 +1,202 @@
+cycle,timestamp_s,profile,phase,queue_N,queue_S,queue_E,queue_W,wait_N,wait_S,wait_E,wait_W,utility_NS,utility_EW,decision,vehicles_cleared,avg_wait_time,emergency_active,ped_request_N,ped_request_S,ped_request_E,ped_request_W
+0,1.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,1.0,1.0,0.0,0.0,held — below min_green,1,0.025,0,0,0,0,0
+1,2.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,2.0,2.0,0.0,0.0,held — below min_green,2,0.074,0,0,0,0,0
+2,3.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,3.0,3.0,0.0,0.0,held — below min_green,3,0.145,0,0,0,0,0
+3,4.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,4.0,4.0,0.0,0.0,held — below min_green,3,0.238,0,0,0,0,0
+4,5.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,5.0,5.0,0.0,0.0,held — below min_green,3,0.351,0,0,0,0,0
+5,6.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,6.0,6.0,0.0,0.0,held — below min_green,5,0.483,0,0,0,0,0
+6,7.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,7.0,7.0,0.0,0.0,held — below min_green,5,0.634,0,0,0,0,0
+7,8.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,8.0,8.0,0.0,0.0,held — below min_green,5,0.802,0,0,0,0,0
+8,9.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,9.0,9.0,0.0,0.0,held — below min_green,5,0.987,0,0,0,0,0
+9,10.0,MIDDAY,NS_GREEN,0,0,1,0,0.0,0.0,10.0,10.0,0.0,0.0,held — below min_green,5,1.188,0,0,0,0,0
+10,11.0,MIDDAY,NS_YELLOW,0,0,1,0,0.0,0.0,11.0,11.0,0.0,361.5,switching -> NS_YELLOW (U_opp=361.5 > U_cur=0.0 + γ=3.0),5,1.404,0,0,0,0,0
+11,12.0,MIDDAY,NS_YELLOW,0,0,2,1,1.0,1.0,12.0,12.0,0.0,361.5,yellow — 1/3s clearance,5,1.658,0,0,0,0,0
+12,13.0,MIDDAY,NS_YELLOW,0,0,2,1,2.0,2.0,13.0,13.0,0.0,361.5,yellow — 2/3s clearance,5,1.95,0,0,0,0,0
+13,14.0,MIDDAY,EW_GREEN,0,0,3,1,3.0,3.0,14.0,14.0,0.0,361.5,yellow complete — transitioning to EW_GREEN,8,2.278,0,0,0,0,0
+14,15.0,MIDDAY,EW_GREEN,1,0,1,0,4.0,4.0,0.0,0.0,0.0,361.5,held — below min_green,11,2.264,0,0,0,0,0
+15,16.0,MIDDAY,EW_GREEN,1,0,0,0,5.0,5.0,0.0,0.0,0.0,361.5,held — below min_green,13,2.276,0,0,0,0,0
+16,17.0,MIDDAY,EW_GREEN,1,0,0,0,6.0,6.0,0.0,0.0,0.0,361.5,held — below min_green,13,2.312,0,0,0,0,0
+17,18.0,MIDDAY,EW_GREEN,1,0,0,0,7.0,7.0,0.0,0.0,0.0,361.5,held — below min_green,13,2.371,0,0,0,0,0
+18,19.0,MIDDAY,EW_GREEN,1,0,0,0,8.0,8.0,0.0,0.0,0.0,361.5,held — below min_green,14,2.453,0,0,0,0,0
+19,20.0,MIDDAY,EW_GREEN,1,0,0,0,9.0,9.0,0.0,0.0,0.0,361.5,held — below min_green,15,2.555,0,0,0,0,0
+20,21.0,MIDDAY,EW_GREEN,1,0,0,0,10.0,10.0,0.0,0.0,0.0,361.5,held — below min_green,15,2.677,0,0,0,0,0
+21,22.0,MIDDAY,EW_GREEN,2,0,0,0,11.0,11.0,0.0,0.0,0.0,361.5,held — below min_green,15,2.819,0,0,0,0,0
+22,23.0,MIDDAY,EW_GREEN,2,0,0,0,12.0,12.0,0.0,0.0,0.0,361.5,held — below min_green,15,2.978,0,0,0,0,0
+23,24.0,MIDDAY,EW_YELLOW,2,0,0,0,13.0,13.0,0.0,0.0,507.0,0.0,switching -> EW_YELLOW (U_opp=507.0 > U_cur=0.0 + γ=3.0),15,3.154,0,0,0,0,0
+24,25.0,MIDDAY,EW_YELLOW,2,0,0,0,14.0,14.0,1.0,1.0,507.0,0.0,yellow — 1/3s clearance,15,3.371,0,0,0,0,0
+25,26.0,MIDDAY,EW_YELLOW,2,0,0,0,15.0,15.0,2.0,2.0,507.0,0.0,yellow — 2/3s clearance,15,3.628,0,0,0,0,0
+26,27.0,MIDDAY,NS_GREEN,2,1,0,0,16.0,16.0,3.0,3.0,507.0,0.0,yellow complete — transitioning to NS_GREEN,18,3.921,0,0,0,0,0
+27,28.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,4.0,4.0,507.0,0.0,held — below min_green,19,3.825,0,0,0,0,0
+28,29.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,5.0,5.0,507.0,0.0,held — below min_green,19,3.759,0,0,0,0,0
+29,30.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,6.0,6.0,507.0,0.0,held — below min_green,20,3.721,0,0,0,0,0
+30,31.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,7.0,7.0,507.0,0.0,held — below min_green,20,3.71,0,0,0,0,0
+31,32.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,8.0,8.0,507.0,0.0,held — below min_green,21,3.724,0,0,0,0,0
+32,33.0,MIDDAY,NS_GREEN,0,0,0,0,0.0,0.0,9.0,9.0,507.0,0.0,held — below min_green,22,3.763,0,0,0,0,0
+33,34.0,MIDDAY,NS_GREEN,0,0,0,1,0.0,0.0,10.0,10.0,507.0,0.0,held — below min_green,25,3.825,0,0,0,0,0
+34,35.0,MIDDAY,NS_GREEN,0,0,0,2,0.0,0.0,11.0,11.0,507.0,0.0,held — below min_green,25,3.909,0,0,0,0,0
+35,36.0,MIDDAY,NS_GREEN,0,0,0,2,0.0,0.0,12.0,12.0,507.0,0.0,held — below min_green,25,4.013,0,0,0,0,0
+36,37.0,MIDDAY,NS_YELLOW,0,0,0,2,0.0,0.0,13.0,13.0,0.0,507.0,switching -> NS_YELLOW (U_opp=507.0 > U_cur=0.0 + γ=3.0),25,4.138,0,0,0,0,0
+37,38.0,MIDDAY,NS_YELLOW,0,1,1,2,1.0,1.0,14.0,14.0,0.0,507.0,yellow — 1/3s clearance,25,4.306,0,0,0,0,0
+38,39.0,MIDDAY,NS_YELLOW,0,2,1,2,2.0,2.0,15.0,15.0,0.0,507.0,yellow — 2/3s clearance,25,4.515,0,0,0,0,0
+39,40.0,MIDDAY,EW_GREEN,0,2,2,2,3.0,3.0,16.0,16.0,0.0,507.0,yellow complete — transitioning to EW_GREEN,29,4.765,0,0,0,0,0
+40,41.0,MIDDAY,EW_GREEN,1,2,0,1,4.0,4.0,0.0,0.0,0.0,507.0,held — below min_green,32,4.626,0,0,0,0,0
+41,42.0,MIDDAY,EW_GREEN,2,3,0,0,5.0,5.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.52,0,0,0,0,0
+42,43.0,MIDDAY,EW_GREEN,3,3,0,0,6.0,6.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.444,0,0,0,0,0
+43,44.0,MIDDAY,EW_GREEN,4,4,0,0,7.0,7.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.397,0,0,0,0,0
+44,45.0,MIDDAY,EW_GREEN,6,4,0,0,8.0,8.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.377,0,0,0,0,1
+45,46.0,MIDDAY,EW_GREEN,7,4,0,0,9.0,9.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.383,0,0,0,0,1
+46,47.0,MIDDAY,EW_GREEN,8,6,0,0,10.0,10.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.414,0,0,0,0,1
+47,48.0,MIDDAY,EW_GREEN,8,7,0,0,11.0,11.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.468,0,0,0,0,1
+48,49.0,MIDDAY,EW_GREEN,8,8,0,0,12.0,12.0,0.0,0.0,0.0,507.0,held — below min_green,33,4.545,0,0,0,0,1
+49,50.0,MIDDAY,EW_YELLOW,9,9,0,0,13.0,13.0,0.0,0.0,531.0,8.0,switching -> EW_YELLOW (U_opp=531.0 > U_cur=8.0 + γ=3.0),33,4.643,0,0,0,0,1
+50,51.0,MIDDAY,EW_YELLOW,9,10,0,1,14.0,14.0,1.0,1.0,531.0,8.0,yellow — 1/3s clearance,33,4.786,0,0,0,0,1
+51,52.0,MIDDAY,EW_YELLOW,9,11,0,1,15.0,15.0,2.0,2.0,531.0,8.0,yellow — 2/3s clearance,33,4.971,0,0,0,0,1
+52,53.0,MIDDAY,NS_GREEN,9,12,0,2,16.0,16.0,3.0,3.0,531.0,8.0,yellow complete — transitioning to NS_GREEN,37,5.198,0,0,0,0,1
+53,54.0,MIDDAY,NS_GREEN,7,11,1,3,0.0,0.0,4.0,4.0,531.0,8.0,held — below min_green,41,5.038,0,0,0,0,1
+54,55.0,MIDDAY,NS_GREEN,6,10,1,3,0.0,0.0,5.0,5.0,531.0,8.0,held — below min_green,45,4.911,0,0,0,0,1
+55,56.0,MIDDAY,NS_GREEN,7,9,1,3,0.0,0.0,6.0,6.0,531.0,8.0,held — below min_green,49,4.815,0,0,0,0,1
+56,57.0,MIDDAY,NS_GREEN,5,7,1,4,0.0,0.0,7.0,7.0,531.0,8.0,held — below min_green,53,4.75,0,0,0,0,1
+57,58.0,MIDDAY,NS_GREEN,3,7,2,4,0.0,0.0,8.0,8.0,531.0,8.0,held — below min_green,57,4.712,0,0,0,0,1
+58,59.0,MIDDAY,NS_GREEN,1,5,2,5,0.0,0.0,9.0,9.0,531.0,8.0,held — below min_green,60,4.702,0,0,0,0,1
+59,60.0,MIDDAY,NS_GREEN,0,4,2,5,0.0,0.0,10.0,10.0,531.0,8.0,held — below min_green,62,4.716,0,0,0,0,1
+60,61.0,MIDDAY,NS_GREEN,0,3,4,5,0.0,0.0,11.0,11.0,531.0,8.0,held — below min_green,64,4.756,0,0,0,0,1
+61,62.0,MIDDAY,NS_GREEN,0,2,4,5,0.0,0.0,12.0,12.0,531.0,8.0,held — below min_green,67,4.818,0,0,0,0,1
+62,63.0,MIDDAY,NS_YELLOW,0,0,4,5,0.0,0.0,13.0,13.0,0.0,525.5,switching -> NS_YELLOW (U_opp=525.5 > U_cur=0.0 + γ=3.0),67,4.902,0,0,0,0,1
+63,64.0,MIDDAY,NS_YELLOW,0,0,5,5,1.0,1.0,14.0,14.0,0.0,525.5,yellow — 1/3s clearance,67,5.032,0,0,0,0,1
+64,65.0,MIDDAY,NS_YELLOW,2,1,7,5,2.0,2.0,15.0,15.0,0.0,525.5,yellow — 2/3s clearance,67,5.205,0,0,0,0,1
+65,66.0,MIDDAY,EW_GREEN,2,3,7,5,3.0,3.0,16.0,16.0,0.0,525.5,yellow complete — transitioning to EW_GREEN,71,5.42,0,0,0,0,1
+66,67.0,MIDDAY,EW_GREEN,2,5,6,3,4.0,4.0,0.0,0.0,0.0,525.5,held — below min_green,75,5.249,0,0,0,0,0
+67,68.0,MIDDAY,EW_GREEN,2,5,4,2,5.0,5.0,0.0,0.0,0.0,525.5,held — below min_green,79,5.112,0,0,0,0,0
+68,69.0,MIDDAY,EW_GREEN,2,5,3,1,6.0,6.0,0.0,0.0,0.0,525.5,held — below min_green,82,5.006,0,0,0,0,0
+69,70.0,MIDDAY,EW_GREEN,2,6,1,0,7.0,7.0,0.0,0.0,0.0,525.5,held — below min_green,83,4.931,0,0,0,0,0
+70,71.0,MIDDAY,EW_GREEN,4,7,0,0,8.0,8.0,0.0,0.0,0.0,525.5,held — below min_green,83,4.884,0,0,0,0,0
+71,72.0,MIDDAY,EW_GREEN,5,8,0,0,9.0,9.0,0.0,0.0,0.0,525.5,held — below min_green,83,4.865,0,0,0,0,0
+72,73.0,MIDDAY,EW_GREEN,7,8,0,0,10.0,10.0,0.0,0.0,0.0,525.5,held — below min_green,84,4.872,0,0,0,0,0
+73,74.0,MIDDAY,EW_GREEN,8,9,0,0,11.0,11.0,0.0,0.0,0.0,525.5,held — below min_green,84,4.903,0,0,0,0,0
+74,75.0,MIDDAY,EW_GREEN,9,9,0,0,12.0,12.0,0.0,0.0,0.0,525.5,held — below min_green,86,4.958,0,0,0,0,0
+75,76.0,MIDDAY,EW_YELLOW,9,9,0,0,13.0,13.0,0.0,0.0,531.0,0.0,switching -> EW_YELLOW (U_opp=531.0 > U_cur=0.0 + γ=3.0),86,5.035,0,0,0,0,0
+76,77.0,MIDDAY,EW_YELLOW,9,10,1,0,14.0,14.0,1.0,1.0,531.0,0.0,yellow — 1/3s clearance,86,5.158,0,0,0,0,0
+77,78.0,MIDDAY,EW_YELLOW,9,11,2,1,15.0,15.0,2.0,2.0,531.0,0.0,yellow — 2/3s clearance,86,5.325,0,0,0,0,0
+78,79.0,MIDDAY,NS_GREEN,10,12,2,2,16.0,16.0,3.0,3.0,531.0,0.0,yellow complete — transitioning to NS_GREEN,90,5.534,0,0,0,0,0
+79,80.0,MIDDAY,NS_GREEN,9,10,2,3,0.0,0.0,4.0,4.0,531.0,0.0,held — below min_green,94,5.357,0,0,0,0,0
+80,81.0,MIDDAY,NS_GREEN,7,9,2,3,0.0,0.0,5.0,5.0,531.0,0.0,held — below min_green,98,5.215,0,0,0,0,0
+81,82.0,MIDDAY,NS_GREEN,5,7,2,3,0.0,0.0,6.0,6.0,531.0,0.0,held — below min_green,102,5.104,0,0,0,0,0
+82,83.0,MIDDAY,NS_GREEN,3,6,2,3,0.0,0.0,7.0,7.0,531.0,0.0,held — below min_green,106,5.024,0,0,0,0,0
+83,84.0,MIDDAY,NS_GREEN,2,4,2,3,0.0,0.0,8.0,8.0,531.0,0.0,held — below min_green,110,4.972,0,0,0,0,0
+84,85.0,MIDDAY,NS_GREEN,0,2,3,3,0.0,0.0,9.0,9.0,531.0,0.0,held — below min_green,112,4.949,0,0,0,0,0
+85,86.0,MIDDAY,NS_GREEN,0,0,3,4,0.0,0.0,10.0,10.0,531.0,0.0,held — below min_green,112,4.951,0,0,0,0,0
+86,87.0,MIDDAY,NS_GREEN,0,0,3,4,0.0,0.0,11.0,11.0,531.0,0.0,held — below min_green,115,4.979,0,0,0,0,0
+87,88.0,MIDDAY,NS_GREEN,0,0,3,5,0.0,0.0,12.0,12.0,531.0,0.0,held — below min_green,117,5.03,0,0,0,0,0
+88,89.0,MIDDAY,NS_YELLOW,0,0,3,5,0.0,0.0,13.0,13.0,0.0,516.0,switching -> NS_YELLOW (U_opp=516.0 > U_cur=0.0 + γ=3.0),117,5.103,0,0,0,0,0
+89,90.0,MIDDAY,NS_YELLOW,2,1,4,6,1.0,1.0,14.0,14.0,0.0,516.0,yellow — 1/3s clearance,117,5.223,0,0,0,0,0
+90,91.0,MIDDAY,NS_YELLOW,2,2,5,6,2.0,2.0,15.0,15.0,0.0,516.0,yellow — 2/3s clearance,117,5.387,0,0,0,0,0
+91,92.0,MIDDAY,EW_GREEN,3,4,6,7,3.0,3.0,16.0,16.0,0.0,516.0,yellow complete — transitioning to EW_GREEN,121,5.593,0,0,0,0,0
+92,93.0,MIDDAY,EW_GREEN,4,6,5,7,4.0,4.0,0.0,0.0,0.0,516.0,held — below min_green,125,5.413,0,0,0,0,0
+93,94.0,MIDDAY,EW_GREEN,4,7,3,5,5.0,5.0,0.0,0.0,0.0,516.0,held — below min_green,129,5.267,0,0,0,0,0
+94,95.0,MIDDAY,EW_GREEN,5,7,1,3,6.0,6.0,0.0,0.0,0.0,516.0,held — below min_green,133,5.154,0,0,0,0,0
+95,96.0,MIDDAY,EW_GREEN,5,8,1,2,7.0,7.0,0.0,0.0,0.0,516.0,held — below min_green,137,5.071,0,0,0,0,0
+96,97.0,MIDDAY,EW_GREEN,6,8,0,0,8.0,8.0,0.0,0.0,0.0,516.0,held — below min_green,139,5.018,0,0,0,0,0
+97,98.0,MIDDAY,EW_GREEN,7,9,0,0,9.0,9.0,0.0,0.0,0.0,516.0,held — below min_green,139,4.992,0,0,0,0,0
+98,99.0,MIDDAY,EW_GREEN,7,11,0,0,10.0,10.0,0.0,0.0,0.0,516.0,held — below min_green,139,4.992,0,0,0,0,0
+99,100.0,MIDDAY,EW_GREEN,8,11,0,0,11.0,11.0,0.0,0.0,0.0,516.0,held — below min_green,140,5.018,0,0,0,0,0
+100,101.0,MIDDAY,EW_GREEN,9,13,0,0,12.0,12.0,0.0,0.0,0.0,516.0,held — below min_green,141,5.067,0,0,0,0,0
+101,102.0,MIDDAY,EW_YELLOW,9,13,0,0,13.0,13.0,0.0,0.0,537.0,0.0,switching -> EW_YELLOW (U_opp=537.0 > U_cur=0.0 + γ=3.0),141,5.138,0,0,0,0,0
+102,103.0,MIDDAY,EW_YELLOW,11,13,1,0,14.0,14.0,1.0,1.0,537.0,0.0,yellow — 1/3s clearance,141,5.257,0,0,0,0,0
+103,104.0,MIDDAY,EW_YELLOW,12,13,1,0,15.0,15.0,2.0,2.0,537.0,0.0,yellow — 2/3s clearance,141,5.419,0,0,0,0,0
+104,105.0,MIDDAY,NS_GREEN,12,14,1,1,16.0,16.0,3.0,3.0,537.0,0.0,yellow complete — transitioning to NS_GREEN,145,5.623,0,0,0,0,0
+105,106.0,MIDDAY,NS_GREEN,10,13,2,1,0.0,0.0,4.0,4.0,537.0,0.0,held — below min_green,149,5.442,0,0,0,0,0
+106,107.0,MIDDAY,NS_GREEN,9,12,3,1,0.0,0.0,5.0,5.0,537.0,0.0,held — below min_green,153,5.295,0,0,0,0,0
+107,108.0,MIDDAY,NS_GREEN,7,12,3,1,0.0,0.0,6.0,6.0,537.0,0.0,held — below min_green,157,5.18,0,1,0,0,0
+108,109.0,MIDDAY,NS_GREEN,6,10,3,1,0.0,0.0,7.0,7.0,537.0,0.0,held — below min_green,161,5.096,0,1,0,0,0
+109,110.0,MIDDAY,NS_GREEN,4,8,3,1,0.0,0.0,8.0,8.0,537.0,0.0,held — below min_green,165,5.041,0,1,0,0,0
+110,111.0,MIDDAY,NS_GREEN,3,7,4,2,0.0,0.0,9.0,9.0,537.0,0.0,held — below min_green,169,5.014,0,1,0,0,0
+111,112.0,MIDDAY,NS_GREEN,2,6,4,3,0.0,0.0,10.0,10.0,537.0,0.0,held — below min_green,173,5.013,0,1,0,0,0
+112,113.0,MIDDAY,NS_GREEN,1,5,4,3,0.0,0.0,11.0,11.0,537.0,0.0,held — below min_green,177,5.038,0,1,0,0,0
+113,114.0,MIDDAY,NS_GREEN,0,5,5,3,0.0,0.0,12.0,12.0,537.0,0.0,held — below min_green,180,5.086,0,1,0,0,0
+114,115.0,MIDDAY,NS_YELLOW,0,4,5,3,0.0,0.0,13.0,13.0,14.0,516.0,switching -> NS_YELLOW (U_opp=516.0 > U_cur=14.0 + γ=3.0),180,5.156,0,1,0,0,0
+115,116.0,MIDDAY,NS_YELLOW,0,5,5,3,1.0,1.0,14.0,14.0,14.0,516.0,yellow — 1/3s clearance,180,5.274,0,1,0,0,0
+116,117.0,MIDDAY,NS_YELLOW,0,6,5,3,2.0,2.0,15.0,15.0,14.0,516.0,yellow — 2/3s clearance,180,5.435,0,1,0,0,0
+117,118.0,MIDDAY,EW_GREEN,1,7,7,4,3.0,3.0,16.0,16.0,14.0,516.0,yellow complete — transitioning to EW_GREEN,184,5.638,0,1,0,0,0
+118,119.0,MIDDAY,EW_GREEN,2,8,5,2,4.0,4.0,0.0,0.0,14.0,516.0,held — below min_green,188,5.456,0,1,0,0,0
+119,120.0,MIDDAY,EW_GREEN,4,9,3,0,5.0,5.0,0.0,0.0,14.0,516.0,held — below min_green,191,5.308,0,1,0,0,0
+120,121.0,MIDDAY,EW_GREEN,4,9,1,0,6.0,6.0,0.0,0.0,14.0,516.0,held — below min_green,194,5.193,0,1,0,0,0
+121,122.0,MIDDAY,EW_GREEN,5,9,0,0,7.0,7.0,0.0,0.0,14.0,516.0,held — below min_green,196,5.108,0,1,0,0,0
+122,123.0,MIDDAY,EW_GREEN,6,10,0,0,8.0,8.0,0.0,0.0,14.0,516.0,held — below min_green,196,5.053,0,1,0,0,0
+123,124.0,MIDDAY,EW_GREEN,7,10,0,0,9.0,9.0,0.0,0.0,14.0,516.0,held — below min_green,198,5.025,0,1,0,0,0
+124,125.0,MIDDAY,EW_GREEN,8,11,0,0,10.0,10.0,0.0,0.0,14.0,516.0,held — below min_green,198,5.024,0,1,0,0,0
+125,126.0,MIDDAY,EW_GREEN,9,11,0,0,11.0,11.0,0.0,0.0,14.0,516.0,held — below min_green,199,5.048,0,1,0,0,0
+126,127.0,MIDDAY,EW_GREEN,9,12,0,0,12.0,12.0,0.0,0.0,14.0,516.0,held — below min_green,200,5.095,0,1,0,0,0
+127,128.0,MIDDAY,EW_YELLOW,10,14,0,0,13.0,13.0,0.0,0.0,548.0,0.0,switching -> EW_YELLOW (U_opp=548.0 > U_cur=0.0 + γ=3.0),200,5.166,0,1,0,0,0
+128,129.0,MIDDAY,EW_YELLOW,10,15,0,1,14.0,14.0,1.0,1.0,548.0,0.0,yellow — 1/3s clearance,200,5.282,0,1,0,0,0
+129,130.0,MIDDAY,EW_YELLOW,10,16,0,1,15.0,15.0,2.0,2.0,548.0,0.0,yellow — 2/3s clearance,200,5.443,0,1,0,0,0
+130,131.0,MIDDAY,NS_GREEN,12,16,0,1,16.0,16.0,3.0,3.0,548.0,0.0,yellow complete — transitioning to NS_GREEN,204,5.646,0,1,0,0,0
+131,132.0,MIDDAY,NS_GREEN,10,15,0,1,0.0,0.0,4.0,4.0,548.0,0.0,held — below min_green,208,5.464,0,0,0,0,0
+132,133.0,MIDDAY,NS_GREEN,10,14,1,2,0.0,0.0,5.0,5.0,548.0,0.0,held — below min_green,212,5.316,0,0,0,0,0
+133,134.0,MIDDAY,NS_GREEN,8,13,1,2,0.0,0.0,6.0,6.0,548.0,0.0,held — below min_green,216,5.2,0,0,0,0,0
+134,135.0,MIDDAY,NS_GREEN,8,11,2,2,0.0,0.0,7.0,7.0,548.0,0.0,held — below min_green,220,5.115,0,0,0,0,0
+135,136.0,MIDDAY,NS_GREEN,7,9,3,2,0.0,0.0,8.0,8.0,548.0,0.0,held — below min_green,224,5.059,0,0,0,0,0
+136,137.0,MIDDAY,NS_GREEN,6,8,3,3,0.0,0.0,9.0,9.0,548.0,0.0,held — below min_green,228,5.031,0,0,0,0,0
+137,138.0,MIDDAY,NS_GREEN,5,7,4,3,0.0,0.0,10.0,10.0,548.0,0.0,held — below min_green,232,5.03,0,0,0,0,0
+138,139.0,MIDDAY,NS_GREEN,4,5,4,3,0.0,0.0,11.0,11.0,548.0,0.0,held — below min_green,236,5.053,0,0,0,0,0
+139,140.0,MIDDAY,NS_GREEN,2,3,4,4,0.0,0.0,12.0,12.0,548.0,0.0,held — below min_green,240,5.1,0,0,0,0,0
+140,141.0,MIDDAY,NS_YELLOW,2,2,4,4,0.0,0.0,13.0,13.0,6.0,516.0,switching -> NS_YELLOW (U_opp=516.0 > U_cur=6.0 + γ=3.0),240,5.17,0,0,0,0,0
+141,142.0,MIDDAY,NS_YELLOW,3,3,5,5,1.0,1.0,14.0,14.0,6.0,516.0,yellow — 1/3s clearance,240,5.287,0,0,0,0,0
+142,143.0,MIDDAY,NS_YELLOW,3,4,5,6,2.0,2.0,15.0,15.0,6.0,516.0,yellow — 2/3s clearance,240,5.448,0,0,0,0,0
+143,144.0,MIDDAY,EW_GREEN,4,4,5,7,3.0,3.0,16.0,16.0,6.0,516.0,yellow complete — transitioning to EW_GREEN,244,5.65,0,0,0,0,0
+144,145.0,MIDDAY,EW_GREEN,4,4,4,5,4.0,4.0,0.0,0.0,6.0,516.0,held — below min_green,248,5.468,0,0,0,0,0
+145,146.0,MIDDAY,EW_GREEN,5,4,2,4,5.0,5.0,0.0,0.0,6.0,516.0,held — below min_green,252,5.319,0,0,0,0,0
+146,147.0,MIDDAY,EW_GREEN,5,5,0,3,6.0,6.0,0.0,0.0,6.0,516.0,held — below min_green,254,5.203,0,0,0,0,0
+147,148.0,MIDDAY,EW_GREEN,5,5,0,2,7.0,7.0,0.0,0.0,6.0,516.0,held — below min_green,256,5.118,0,0,0,0,0
+148,149.0,MIDDAY,EW_GREEN,6,5,0,0,8.0,8.0,0.0,0.0,6.0,516.0,held — below min_green,256,5.062,0,0,0,0,0
+149,150.0,MIDDAY,EW_GREEN,6,6,0,0,9.0,9.0,0.0,0.0,6.0,516.0,held — below min_green,256,5.034,0,0,0,0,0
+150,151.0,MIDDAY,EW_GREEN,7,7,0,0,10.0,10.0,0.0,0.0,6.0,516.0,held — below min_green,256,5.032,0,0,0,0,0
+151,152.0,MIDDAY,EW_GREEN,9,8,0,0,11.0,11.0,0.0,0.0,6.0,516.0,held — below min_green,257,5.056,0,0,0,0,0
+152,153.0,MIDDAY,EW_GREEN,9,8,0,0,12.0,12.0,0.0,0.0,6.0,516.0,held — below min_green,258,5.103,0,0,0,0,0
+153,154.0,MIDDAY,EW_YELLOW,10,8,0,0,13.0,13.0,0.0,0.0,531.0,0.0,switching -> EW_YELLOW (U_opp=531.0 > U_cur=0.0 + γ=3.0),258,5.173,0,0,0,0,0
+154,155.0,MIDDAY,EW_YELLOW,11,9,0,0,14.0,14.0,1.0,1.0,531.0,0.0,yellow — 1/3s clearance,258,5.289,0,0,0,0,0
+155,156.0,MIDDAY,EW_YELLOW,11,11,0,0,15.0,15.0,2.0,2.0,531.0,0.0,yellow — 2/3s clearance,258,5.45,0,0,0,0,0
+156,157.0,MIDDAY,NS_GREEN,11,12,0,0,16.0,16.0,3.0,3.0,531.0,0.0,yellow complete — transitioning to NS_GREEN,262,5.652,0,0,0,0,0
+157,158.0,MIDDAY,NS_GREEN,11,11,1,0,0.0,0.0,4.0,4.0,531.0,0.0,held — below min_green,266,5.47,0,0,0,0,0
+158,159.0,MIDDAY,NS_GREEN,10,10,1,1,0.0,0.0,5.0,5.0,531.0,0.0,held — below min_green,270,5.321,0,0,0,0,0
+159,160.0,MIDDAY,NS_GREEN,8,8,2,2,0.0,0.0,6.0,6.0,531.0,0.0,held — below min_green,274,5.205,0,0,0,0,0
+160,161.0,MIDDAY,NS_GREEN,7,6,2,2,0.0,0.0,7.0,7.0,531.0,0.0,held — below min_green,278,5.12,0,0,0,0,0
+161,162.0,MIDDAY,NS_GREEN,5,5,2,2,0.0,0.0,8.0,8.0,531.0,0.0,held — below min_green,282,5.064,0,0,0,0,0
+162,163.0,MIDDAY,NS_GREEN,4,6,2,2,0.0,0.0,9.0,9.0,531.0,0.0,held — below min_green,286,5.036,0,0,0,0,0
+163,164.0,MIDDAY,NS_GREEN,3,4,3,3,0.0,0.0,10.0,10.0,531.0,0.0,held — below min_green,290,5.034,0,0,0,0,0
+164,165.0,MIDDAY,NS_GREEN,2,2,4,4,0.0,0.0,11.0,11.0,531.0,0.0,held — below min_green,294,5.057,0,0,0,0,0
+165,166.0,MIDDAY,NS_GREEN,1,0,5,4,0.0,0.0,12.0,12.0,531.0,0.0,held — below min_green,297,5.104,0,0,0,0,0
+166,167.0,MIDDAY,NS_YELLOW,0,0,5,4,0.0,0.0,13.0,13.0,0.0,517.5,switching -> NS_YELLOW (U_opp=517.5 > U_cur=0.0 + γ=3.0),297,5.174,0,0,0,0,0
+167,168.0,MIDDAY,NS_YELLOW,0,0,5,5,1.0,1.0,14.0,14.0,0.0,517.5,yellow — 1/3s clearance,297,5.29,0,0,0,0,0
+168,169.0,MIDDAY,NS_YELLOW,0,1,5,5,2.0,2.0,15.0,15.0,0.0,517.5,yellow — 2/3s clearance,297,5.451,0,0,0,0,0
+169,170.0,MIDDAY,EW_GREEN,1,1,5,5,3.0,3.0,16.0,16.0,0.0,517.5,yellow complete — transitioning to EW_GREEN,301,5.653,0,0,0,0,0
+170,171.0,MIDDAY,EW_GREEN,1,1,3,4,4.0,4.0,0.0,0.0,0.0,517.5,held — below min_green,305,5.471,0,0,0,0,0
+171,172.0,MIDDAY,EW_GREEN,2,2,1,3,5.0,5.0,0.0,0.0,0.0,517.5,held — below min_green,308,5.322,0,0,0,0,0
+172,173.0,MIDDAY,EW_GREEN,2,2,0,2,6.0,6.0,0.0,0.0,0.0,517.5,held — below min_green,310,5.206,0,0,0,0,0
+173,174.0,MIDDAY,EW_GREEN,3,3,0,1,7.0,7.0,0.0,0.0,0.0,517.5,held — below min_green,313,5.121,0,0,0,0,0
+174,175.0,MIDDAY,EW_GREEN,3,3,0,0,8.0,8.0,0.0,0.0,0.0,517.5,held — below min_green,313,5.065,0,0,0,0,0
+175,176.0,MIDDAY,EW_GREEN,4,3,0,0,9.0,9.0,0.0,0.0,0.0,517.5,held — below min_green,315,5.036,0,0,0,0,0
+176,177.0,MIDDAY,EW_GREEN,5,3,0,0,10.0,10.0,0.0,0.0,0.0,517.5,held — below min_green,317,5.035,0,0,0,0,0
+177,178.0,MIDDAY,EW_GREEN,5,4,0,0,11.0,11.0,0.0,0.0,0.0,517.5,held — below min_green,319,5.058,0,0,0,0,0
+178,179.0,MIDDAY,EW_GREEN,6,5,0,0,12.0,12.0,0.0,0.0,0.0,517.5,held — below min_green,321,5.105,0,0,0,0,0
+179,180.0,MIDDAY,EW_YELLOW,8,6,0,0,13.0,13.0,0.0,0.0,525.0,0.0,switching -> EW_YELLOW (U_opp=525.0 > U_cur=0.0 + γ=3.0),321,5.175,0,0,0,0,0
+180,181.0,MIDDAY,EW_YELLOW,8,6,0,0,14.0,14.0,1.0,1.0,525.0,0.0,yellow — 1/3s clearance,321,5.291,0,0,0,0,0
+181,182.0,MIDDAY,EW_YELLOW,10,7,0,0,15.0,15.0,2.0,2.0,525.0,0.0,yellow — 2/3s clearance,321,5.451,0,0,0,0,0
+182,183.0,MIDDAY,NS_GREEN,10,7,0,2,16.0,16.0,3.0,3.0,525.0,0.0,yellow complete — transitioning to NS_GREEN,325,5.654,0,0,0,0,0
+183,184.0,MIDDAY,NS_GREEN,9,5,0,2,0.0,0.0,4.0,4.0,525.0,0.0,held — below min_green,329,5.471,0,0,0,0,0
+184,185.0,MIDDAY,NS_GREEN,7,4,1,3,0.0,0.0,5.0,5.0,525.0,0.0,held — below min_green,333,5.323,0,1,0,0,0
+185,186.0,MIDDAY,NS_GREEN,6,3,1,4,0.0,0.0,6.0,6.0,525.0,0.0,held — below min_green,337,5.207,0,1,0,0,0
+186,187.0,MIDDAY,NS_GREEN,5,1,1,5,0.0,0.0,7.0,7.0,525.0,0.0,held — below min_green,341,5.121,0,1,0,0,0
+187,188.0,MIDDAY,NS_GREEN,3,0,1,5,0.0,0.0,8.0,8.0,525.0,0.0,held — below min_green,345,5.065,0,1,0,0,0
+188,189.0,MIDDAY,NS_GREEN,1,0,2,5,0.0,0.0,9.0,9.0,525.0,0.0,held — below min_green,347,5.037,0,1,0,0,0
+189,190.0,MIDDAY,NS_GREEN,0,0,2,5,0.0,0.0,10.0,10.0,525.0,0.0,held — below min_green,349,5.035,0,1,0,0,0
+190,191.0,MIDDAY,NS_GREEN,0,0,3,6,0.0,0.0,11.0,11.0,525.0,0.0,held — below min_green,352,5.058,0,1,0,0,0
+191,192.0,MIDDAY,NS_GREEN,0,0,3,6,0.0,0.0,12.0,12.0,525.0,0.0,held — below min_green,355,5.105,0,1,0,0,0
+192,193.0,MIDDAY,NS_YELLOW,0,0,3,7,0.0,0.0,13.0,13.0,8.0,519.0,switching -> NS_YELLOW (U_opp=519.0 > U_cur=8.0 + γ=3.0),355,5.175,0,1,0,0,0
+193,194.0,MIDDAY,NS_YELLOW,1,2,3,8,1.0,1.0,14.0,14.0,8.0,519.0,yellow — 1/3s clearance,355,5.291,0,1,0,0,0
+194,195.0,MIDDAY,NS_YELLOW,2,4,3,9,2.0,2.0,15.0,15.0,8.0,519.0,yellow — 2/3s clearance,355,5.452,0,1,0,0,0
+195,196.0,MIDDAY,EW_GREEN,3,4,3,9,3.0,3.0,16.0,16.0,8.0,519.0,yellow complete — transitioning to EW_GREEN,359,5.654,0,1,0,0,0
+196,197.0,MIDDAY,EW_GREEN,4,4,2,7,4.0,4.0,0.0,0.0,8.0,519.0,held — below min_green,363,5.471,0,1,0,0,0
+197,198.0,MIDDAY,EW_GREEN,5,6,0,5,5.0,5.0,0.0,0.0,8.0,519.0,held — below min_green,365,5.323,0,1,0,0,0
+198,199.0,MIDDAY,EW_GREEN,7,7,0,4,6.0,6.0,0.0,0.0,8.0,519.0,held — below min_green,367,5.207,0,1,0,0,0
+199,200.0,MIDDAY,EW_GREEN,7,8,0,4,7.0,7.0,0.0,0.0,8.0,519.0,held — below min_green,369,5.121,0,1,0,0,0
+200,201.0,MIDDAY,EW_GREEN,8,8,0,3,8.0,8.0,0.0,0.0,8.0,519.0,held — below min_green,373,5.065,0,1,0,0,0
